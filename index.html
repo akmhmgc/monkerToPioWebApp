@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>RngConverter</title>
+</head>
+
+<body>
+
+  <div id="page-wrapper">
+
+    <h1>rng file converter</h1>
+    <div class="input_form">
+      Select rng files:
+      <input type="file" multiple id="fileInput" accept=".zip">
+      <select id="selectGroup">
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6" selected>6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+      </select>
+      <a>players</a>
+    </div>
+    <div class="output">
+      <button id="converter" type="button" disabled>Convert</button>
+      <button id="saveAsZip" type="button" disabled>Download</button>
+      <div id="dl_pct">
+        <p>0%</p>
+      </div>
+    </div>
+  </div>
+  <script src="./main.js"></script>
+</body>
+
+</html>
